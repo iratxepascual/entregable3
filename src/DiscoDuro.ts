@@ -15,7 +15,7 @@ export class DiscoDuro extends AlmacenamientoFisico{
     }
 
     reportarInformacion(): void {
-        console.log(`Nombre: ${this.nombre}\nCapacidad: ${this.capacidad}\nContenido: ${this.contenido}\nTipo de almacenamiento: ${this.tipoAlmacenamiento}.`);
+        console.log(`Nombre: ${this.nombre}\nCapacidad: ${this.capacidad} GB.\nContenido: ${this.contenido}\nTipo de almacenamiento: ${this.tipoAlmacenamiento}.`);
     }
 
 }
