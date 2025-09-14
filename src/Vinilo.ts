@@ -11,7 +11,7 @@ export class Vinilo extends AlmacenamientoFisico{
     }
 
     escribirDatos(): void {
-        console.log("Grabando datos en el vinilo");
+        console.log("Vinilo solo se puede leer, no se puede grabar con este sistema");
     }
 
     reportarInformacion(): void {
