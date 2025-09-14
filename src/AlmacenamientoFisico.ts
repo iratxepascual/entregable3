@@ -1,6 +1,7 @@
 import { IComportamientos } from "./IComportamientos.js";
+import { IDiscoGiratorio } from "./IDiscoGiratorio.js";
 
-export class AlmacenamientoFisico implements IComportamientos{
+export class AlmacenamientoFisico implements IComportamientos, IDiscoGiratorio {
     #nombre: string;
     #capacidad: number;
     #contenido: string;
@@ -48,8 +49,8 @@ export class AlmacenamientoFisico implements IComportamientos{
         return this.#tipoAlmacenamiento;
     }
 
-    set tipoAlmacenamiento(nuevoTipoAlmacenamientoo:string){
-        this.#tipoAlmacenamiento = nuevoTipoAlmacenamientoo;
+    set tipoAlmacenamiento(nuevoTipoAlmacenamiento:string){
+        this.#tipoAlmacenamiento = nuevoTipoAlmacenamiento;
     }
 
 }
